@@ -12,6 +12,7 @@
     --primary-color: white;
     --secondary-color: black;
     --bg-img: url(./img/head_img.jpg)
+    transition: all 1s ease
   }
   
   .heading {
@@ -107,11 +108,11 @@
   .col h3 {
     font-size: 20px;
   }
-  .icon {
-    font-size: 22px;
+  .icon{
     color: var(--primary-color);
-  }
   
+  }
+
   .icon:hover {
     opacity: 0.7;
   }
