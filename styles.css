@@ -12,7 +12,6 @@
     --primary-color: white;
     --secondary-color: black;
     --bg-img: url(./img/head_img.jpg)
-    transition: all 1s ease
   }
   
   .heading {
