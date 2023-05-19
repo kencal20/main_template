@@ -24,9 +24,7 @@ body {
   height: 500px;
   color: var(--primary-color);
 }
-.nav{
-  color:var(--primary-color)
-}
+
 .heading h5 {
   font-family: "Playfair Display", serif;
   margin-left: 100px;
