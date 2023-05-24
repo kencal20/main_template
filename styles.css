@@ -29,11 +29,18 @@ body {
   color: var(--primary-color);
 }
 
+
 .heading h5 {
   font-family: "Playfair Display", serif;
   margin-left: 100px;
   margin-top: 10px;
   text-align: center;
+}
+
+.heading ul{
+  display: flex;
+  list-style: none;
+  color: var(--primary-color);
 }
 
 .head_summary {
@@ -132,7 +139,6 @@ footer h3 {
   body {
     width: 100%;
   }
-
   h1 {
     font: 50px;
     line-height: 50px;
