@@ -1,4 +1,4 @@
-export default function footerComponent(){
+export default function footerComponent() {
     return `
     <footer>
 
@@ -37,8 +37,7 @@ export default function footerComponent(){
 
 
         </div>
-        <h6> Seventh-Day Adventist Church <br> Promise Land <br> All rights reserved &copy; <i id="year">
-            </i>
+        <h6> Seventh-Day Adventist Church <br> Promise Land <br> All rights reserved &copy; <i>${Year}</i>
             <br>
 
 
@@ -49,3 +48,5 @@ export default function footerComponent(){
 </footer>
     `
 }
+
+const Year = new Date().getFullYear();
