@@ -1,0 +1,43 @@
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --bg-img: url(../../img/head_logo.jpg);
+  
+  
+  }
+  .dark-theme {
+    --primary-color: white;
+    --secondary-color: black;
+    --bg-img: url(../../img/head_img.jpg);
+  
+  }
+.heading {
+    background-image: var(--bg-img);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: var(--primary-color);
+  }
+  
+  
+  .heading h5 {
+    font-family: "Playfair Display", serif;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .heading ul{
+    display: flex;
+    list-style: none;
+    color: var(--primary-color);
+  }
+  
+  .head_summary {
+    position: regular;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+  }
+  
