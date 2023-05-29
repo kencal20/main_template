@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./components/header/header.css">
+    <link rel="stylesheet" href="./components/footer/footer.css">
+    <link rel="stylesheet" href="./components/split/split.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -20,10 +23,10 @@
 
 <body>
     <div id="heading"></div>
- 
+
     <div id="split"></div>
 
-    <div id="footer"></div> 
+    <div id="footer"></div>
 
 
 
@@ -33,12 +36,12 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script type="module">
-       	 import headingComponent from "../components/header.js"
-      	 import splitComponent from "../components/split.js"
-         import footerComponent from "../components/footer.js"
-       	 document.getElementById("heading").innerHTML = headingComponent()
-       	 document.getElementById("split").innerHTML   = splitComponent()
-       	 document.getElementById("footer").innerHTML  = footerComponent()
+        import headingComponent from "./components/header/header.js"
+        import splitComponent from "./components/split/split.js"
+        import footerComponent from "./components/footer/footer.js"
+        document.getElementById("heading").innerHTML = headingComponent()
+        document.getElementById("split").innerHTML = splitComponent()
+        document.getElementById("footer").innerHTML = footerComponent()
 
     </script>
 
